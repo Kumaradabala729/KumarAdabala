@@ -1,7 +1,7 @@
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> levelOrder(TreeNode root) {
-        traverse(root, 0);
+        traverse(root, 0);  
         return res;
     }
     public void traverse(TreeNode root, int level){
