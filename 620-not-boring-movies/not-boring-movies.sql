@@ -1,3 +1,3 @@
-select id, movie,description,rating from cinema
-where description != "boring" and id % 2 = 1
-order by rating desc ;
+select id,movie,description,rating from cinema
+where id%2 = 1 and description != "boring"
+order by rating desc;
